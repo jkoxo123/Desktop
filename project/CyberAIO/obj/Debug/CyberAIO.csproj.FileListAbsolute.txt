@@ -1,0 +1,10 @@
+C:\Users\helscent\Desktop\project\CyberAIO\obj\Debug\CyberAIO.csprojAssemblyReference.cache
+C:\Users\helscent\Desktop\project\CyberAIO\obj\Debug\CaptchaQueue.resources
+C:\Users\helscent\Desktop\project\CyberAIO\obj\Debug\CyberAIO.CyberAIO.Properties.Resources.resources
+C:\Users\helscent\Desktop\project\CyberAIO\obj\Debug\Licenser.resources
+C:\Users\helscent\Desktop\project\CyberAIO\obj\Debug\MainWindow.resources
+C:\Users\helscent\Desktop\project\CyberAIO\obj\Debug\Notification.resources
+C:\Users\helscent\Desktop\project\CyberAIO\obj\Debug\Renewal.resources
+C:\Users\helscent\Desktop\project\CyberAIO\obj\Debug\Startup.resources
+C:\Users\helscent\Desktop\project\CyberAIO\obj\Debug\CyberAIO.csproj.GenerateResource.cache
+C:\Users\helscent\Desktop\project\CyberAIO\obj\Debug\CyberAIO.csproj.CoreCompileInputs.cache

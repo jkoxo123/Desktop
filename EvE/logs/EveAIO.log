@@ -1,0 +1,17 @@
+[2018-08-20 22:24:21,411] - Unexpected error occured
+System.Windows.Markup.XamlParseException: The invocation of the constructor on type 'EveAIO.Views.Splash' that matches the specified binding constraints threw an exception. ---> System.MissingMethodException: Method not found: 'System.Threading.ReaderWriterLockSlim EveAIO.Pocos.SynchronizedObservableCollection`1.?????????????????????????????????????????()'.
+   at EveAIO.Pocos.SynchronizedObservableCollection`1..ctor()
+   at EveAIO.Settings..ctor()
+   at EveAIO.Helpers.LoadSettings()
+   at EveAIO.Global.Init()
+   at EveAIO.Views.Splash..ctor()
+   --- End of inner exception stack trace ---
+   at System.Windows.Markup.WpfXamlLoader.Load(XamlReader xamlReader, IXamlObjectWriterFactory writerFactory, Boolean skipJournaledProperties, Object rootObject, XamlObjectWriterSettings settings, Uri baseUri)
+   at System.Windows.Markup.WpfXamlLoader.LoadBaml(XamlReader xamlReader, Boolean skipJournaledProperties, Object rootObject, XamlAccessLevel accessLevel, Uri baseUri)
+   at System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)
+   at System.Windows.Application.LoadBamlStreamWithSyncInfo(Stream stream, ParserContext pc)
+   at System.Windows.Application.LoadComponent(Uri resourceLocator, Boolean bSkipJournaledProperties)
+   at System.Windows.Application.DoStartup()
+   at System.Windows.Application.<.ctor>b__1_0(Object unused)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)

@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{32E9EDDF-7849-4E27-95F1-4915BC2244B3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CyberAIO</RootNamespace>
+    <AssemblyName>CyberAIO</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>CyberAIO.ico</ApplicationIcon>
+    <StartupObject>Class64</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\Bunifu UI WinForms 1.6.0.0\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="CloudFlareUtilities" />
+    <Reference Include="EO.Base">
+      <HintPath>..\..\CyberAIO\EO.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="EO.WebBrowser">
+      <HintPath>..\..\CyberAIO\EO.WebBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="EO.WebEngine">
+      <HintPath>..\..\CyberAIO\EO.WebEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\..\CyberAIO\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Jint">
+      <HintPath>..\..\CyberAIO\Jint.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\CyberAIO\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="websocket-sharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-.cs" />
+    <Compile Include="CaptchaQueue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CaptchaQueue.Designer.cs">
+      <DependentUpon>CaptchaQueue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class0.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class100.cs" />
+    <Compile Include="Class101.cs" />
+    <Compile Include="Class102.cs" />
+    <Compile Include="Class103.cs" />
+    <Compile Include="Class104.cs" />
+    <Compile Include="Class105.cs" />
+    <Compile Include="Class106.cs" />
+    <Compile Include="Class107.cs" />
+    <Compile Include="Class108.cs" />
+    <Compile Include="Class11.cs" />
+    <Compile Include="Class114.cs" />
+    <Compile Include="Class115.cs" />
+    <Compile Include="Class116.cs" />
+    <Compile Include="Class119.cs" />
+    <Compile Include="Class12.cs" />
+    <Compile Include="Class123.cs" />
+    <Compile Include="Class124.cs" />
+    <Compile Include="Class125.cs" />
+    <Compile Include="Class128.cs" />
+    <Compile Include="Class129.cs" />
+    <Compile Include="Class13.cs" />
+    <Compile Include="Class130.cs" />
+    <Compile Include="Class131.cs" />
+    <Compile Include="Class132.cs" />
+    <Compile Include="Class133.cs" />
+    <Compile Include="Class134.cs" />
+    <Compile Include="Class136.cs" />
+    <Compile Include="Class137.cs" />
+    <Compile Include="Class138.cs" />
+    <Compile Include="Class139.cs" />
+    <Compile Include="Class14.cs" />
+    <Compile Include="Class140.cs" />
+    <Compile Include="Class141.cs" />
+    <Compile Include="Class142.cs" />
+    <Compile Include="Class144.cs" />
+    <Compile Include="Class15.cs" />
+    <Compile Include="Class150.cs" />
+    <Compile Include="Class151.cs" />
+    <Compile Include="Class152.cs" />
+    <Compile Include="Class154.cs" />
+    <Compile Include="Class156.cs" />
+    <Compile Include="Class157.cs" />
+    <Compile Include="Class159.cs" />
+    <Compile Include="Class161.cs" />
+    <Compile Include="Class167.cs" />
+    <Compile Include="Class168.cs" />
+    <Compile Include="Class169.cs" />
+    <Compile Include="Class17.cs" />
+    <Compile Include="Class170.cs" />
+    <Compile Include="Class173.cs" />
+    <Compile Include="Class174.cs" />
+    <Compile Include="Class175.cs" />
+    <Compile Include="Class179.cs" />
+    <Compile Include="Class18.cs" />
+    <Compile Include="Class188.cs" />
+    <Compile Include="Class189.cs" />
+    <Compile Include="Class19.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="Class20.cs" />
+    <Compile Include="Class21.cs" />
+    <Compile Include="Class22.cs" />
+    <Compile Include="Class23.cs" />
+    <Compile Include="Class24.cs" />
+    <Compile Include="Class25.cs" />
+    <Compile Include="Class26.cs" />
+    <Compile Include="Class29.cs" />
+    <Compile Include="Class3.cs" />
+    <Compile Include="Class30.cs" />
+    <Compile Include="Class31.cs" />
+    <Compile Include="Class37.cs" />
+    <Compile Include="Class38.cs" />
+    <Compile Include="Class39.cs" />
+    <Compile Include="Class4.cs" />
+    <Compile Include="Class40.cs" />
+    <Compile Include="Class41.cs" />
+    <Compile Include="Class42.cs" />
+    <Compile Include="Class43.cs" />
+    <Compile Include="Class44.cs" />
+    <Compile Include="Class45.cs" />
+    <Compile Include="Class46.cs" />
+    <Compile Include="Class47.cs" />
+    <Compile Include="Class48.cs" />
+    <Compile Include="Class49.cs" />
+    <Compile Include="Class5.cs" />
+    <Compile Include="Class50.cs" />
+    <Compile Include="Class51.cs" />
+    <Compile Include="Class52.cs" />
+    <Compile Include="Class53.cs" />
+    <Compile Include="Class54.cs" />
+    <Compile Include="Class56.cs" />
+    <Compile Include="Class57.cs" />
+    <Compile Include="Class58.cs" />
+    <Compile Include="Class59.cs" />
+    <Compile Include="Class60.cs" />
+    <Compile Include="Class61.cs" />
+    <Compile Include="Class63.cs" />
+    <Compile Include="Class64.cs" />
+    <Compile Include="Class65.cs" />
+    <Compile Include="Class73.cs" />
+    <Compile Include="Class74.cs" />
+    <Compile Include="Class79.cs" />
+    <Compile Include="Class80.cs" />
+    <Compile Include="Class81.cs" />
+    <Compile Include="Class82.cs" />
+    <Compile Include="Class83.cs" />
+    <Compile Include="Class84.cs" />
+    <Compile Include="Class85.cs" />
+    <Compile Include="Class86.cs" />
+    <Compile Include="Class87.cs" />
+    <Compile Include="Class88.cs" />
+    <Compile Include="Class89.cs" />
+    <Compile Include="Class9.cs" />
+    <Compile Include="Class90.cs" />
+    <Compile Include="Class91.cs" />
+    <Compile Include="Class92.cs" />
+    <Compile Include="Class93.cs" />
+    <Compile Include="Class94.cs" />
+    <Compile Include="Class95.cs" />
+    <Compile Include="Class96.cs" />
+    <Compile Include="Class97.cs" />
+    <Compile Include="Class98.cs" />
+    <Compile Include="Class99.cs" />
+    <Compile Include="CyberAIO.Properties.Resources.Designer.cs">
+      <DependentUpon>CyberAIO.Properties.Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Enum1.cs" />
+    <Compile Include="Enum2.cs" />
+    <Compile Include="Exception0.cs" />
+    <Compile Include="Exception1.cs" />
+    <Compile Include="Exception2.cs" />
+    <Compile Include="GClass0.cs" />
+    <Compile Include="GClass1.cs" />
+    <Compile Include="GClass2.cs" />
+    <Compile Include="GClass3.cs" />
+    <Compile Include="GClass4.cs" />
+    <Compile Include="GEnum1.cs" />
+    <Compile Include="GEnum2.cs" />
+    <Compile Include="Interface0.cs" />
+    <Compile Include="Interface1.cs" />
+    <Compile Include="Interface2.cs" />
+    <Compile Include="Interface3.cs" />
+    <Compile Include="Interface4.cs" />
+    <Compile Include="Interface5.cs" />
+    <Compile Include="Interface6.cs" />
+    <Compile Include="Interface7.cs" />
+    <Compile Include="Interface8.cs" />
+    <Compile Include="Interface9.cs" />
+    <Compile Include="Licenser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Licenser.Designer.cs">
+      <DependentUpon>Licenser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Notification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notification.Designer.cs">
+      <DependentUpon>Notification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pc1eOx2WJVV1892639409.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Renewal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Renewal.Designer.cs">
+      <DependentUpon>Renewal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Startup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Startup.Designer.cs">
+      <DependentUpon>Startup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stream0.cs" />
+    <Compile Include="Struct144.cs" />
+    <Compile Include="Struct52.cs" />
+    <Compile Include="Struct87.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="4155e30f986b4d09b610b7fa5ef8038b" />
+    <EmbeddedResource Include="CaptchaQueue.resx">
+      <DependentUpon>CaptchaQueue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="costura.bunifu.core.dll.compressed" />
+    <EmbeddedResource Include="costura.bunifu.ui.winforms.bunifuradiobutton.dll.compressed" />
+    <EmbeddedResource Include="costura.bunifu_ui_v1.5.3.dll.compressed" />
+    <EmbeddedResource Include="costura.cloudflareutilities.dll.compressed" />
+    <EmbeddedResource Include="costura.costura.dll.compressed" />
+    <EmbeddedResource Include="costura.eo.base.dll.compressed" />
+    <EmbeddedResource Include="costura.eo.webbrowser.dll.compressed" />
+    <EmbeddedResource Include="costura.eo.webengine.dll.compressed" />
+    <EmbeddedResource Include="costura.htmlagilitypack.dll.compressed" />
+    <EmbeddedResource Include="costura.htmlagilitypack.pdb.compressed" />
+    <EmbeddedResource Include="costura.jint.dll.compressed" />
+    <EmbeddedResource Include="costura.newtonsoft.json.dll.compressed" />
+    <EmbeddedResource Include="costura.system.io.compression.dll.compressed" />
+    <EmbeddedResource Include="costura.websocket-sharp.dll.compressed" />
+    <EmbeddedResource Include="CyberAIO.Properties.Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CyberAIO.Properties.Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Licenser.resx">
+      <DependentUpon>Licenser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notification.resx">
+      <DependentUpon>Notification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Renewal.resx">
+      <DependentUpon>Renewal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Startup.resx">
+      <DependentUpon>Startup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="​" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
