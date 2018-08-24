@@ -1,0 +1,1 @@
+{ "Id": "5b75b78422df087d6830de3a", "license key": "Y8MHMW0YK6Z7KWER", "Status": 0, "Hwid": "", "Email": "Tony", "User": "427214319839870997", "Discord": "427214319839870997", "Renewal": "2028-01-01T00:00:00Z", "Online": true, "Message": "Successfully authenticated license.", "Valid": true }
