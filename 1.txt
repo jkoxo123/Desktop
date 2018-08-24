@@ -1,0 +1,1 @@
+{ "Id": "5b75b78422df087d6830de3a", "license key": "Y8MHMW0YK6Z7KWER", "Status": 1, "Hwid": "42:01:0A:96:00:02 1F8BFBFF000406F0 Google:GoogleCloud-5473FFE3941644E88409DCCC0A06ADE3", "Email": "Tony", "User": "427214319839870997", "Discord": "427214319839870997", "Renewal": "2028-01-01T00:00:00Z", "Online": true, "Message": "Successfully authenticated license.", "Valid": true }
